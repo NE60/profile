@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Trad:wght@100..400&display=swap');
+
+body {
+  background-color: rgb(243, 238, 183);
+  font-family: "Playwrite IT Trad", cursive;
+  color: rgb(60, 60, 60);
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.site-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
